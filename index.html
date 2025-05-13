@@ -3,24 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project-2</title>
+    <title>project</title>
     <link href="style.css" rel="stylesheet">
+    <script src="script.js" rel="script" defer></script>
 </head>
 <body>
     <div class="header-container">
+        <button class="hamburger-button" onclick="toggleMenuOn()" title="Click to toggle the menu"></button>
+        <div class="bar" id="bar">
         <div class="header-logo">Header Logo</div>
         <div class="header-links">
             <div class="h-link"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">header link one</a></div>
             <div class="h-link"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">header link Two</a></div>
             <div class="h-link"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">header link Three</a></div>
         </div>
+        </div>
+
+        <div id="overlay" onclick="toggleMenuOff()"></div>
+
         <div class ="intro">
             <div class="intro-text">
                 <div class="intro-title">This website is awesome</div>
                 <div class="intro-subtext">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</div>
                 <div class="intro-button"><button class="button" title="Go TO the other button!">Sign up</button></div>
             </div>
-            <div class="intro-img"><div class="text-img">this is a placeholder for an image</div></div>
+            <div class="intro-img"><img src="https://pm1.aminoapps.com/7780/ea5d39f72d931f7abaca21c10c6c7844cea66118r1-1280-940v2_hq.jpg" alt=" here we go again- GTA san andreas image"  ></div>
         </div>
     </div>
     <h1 class="info">Some random information.</h1>
